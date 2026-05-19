@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1456 816" role="img" aria-label="Sunset reading background">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#171511"/>
+      <stop offset="0.28" stop-color="#a24a17"/>
+      <stop offset="0.52" stop-color="#f7a73b"/>
+      <stop offset="0.78" stop-color="#7f3f1d"/>
+      <stop offset="1" stop-color="#171b1b"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="55%" cy="45%" r="28%">
+      <stop offset="0" stop-color="#fff7c6" stop-opacity="0.98"/>
+      <stop offset="0.24" stop-color="#ffd46b" stop-opacity="0.78"/>
+      <stop offset="1" stop-color="#f18828" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ground" x1="0" x2="1">
+      <stop offset="0" stop-color="#14201b"/>
+      <stop offset="0.5" stop-color="#533216"/>
+      <stop offset="1" stop-color="#171915"/>
+    </linearGradient>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+  </defs>
+  <rect width="1456" height="816" fill="url(#sky)"/>
+  <rect width="1456" height="816" fill="url(#sun)"/>
+  <circle cx="730" cy="376" r="32" fill="#fff7bd" opacity="0.82"/>
+  <path d="M0 602 C170 545 268 570 396 548 C526 526 628 548 780 516 C950 478 1082 505 1224 462 C1315 434 1390 438 1456 420 L1456 816 L0 816 Z" fill="#221d17" opacity="0.68"/>
+  <path d="M0 652 C240 598 446 650 682 608 C865 574 1042 595 1220 548 C1320 522 1394 535 1456 516 L1456 816 L0 816 Z" fill="url(#ground)"/>
+  <g opacity="0.38" filter="url(#blur)">
+    <ellipse cx="1170" cy="664" rx="430" ry="86" fill="#f59e36"/>
+    <ellipse cx="486" cy="682" rx="360" ry="76" fill="#dd7b29"/>
+  </g>
+  <g fill="#161512">
+    <path d="M138 0 C116 106 106 217 118 338 C128 446 110 547 74 680 L320 680 C260 508 249 349 283 203 C301 124 283 58 250 0 Z"/>
+    <path d="M0 0 L440 0 C360 42 309 78 246 117 C178 159 94 139 0 113 Z"/>
+    <path d="M925 0 C1038 42 1110 74 1208 72 C1310 70 1390 38 1456 0 Z"/>
+  </g>
+  <g fill="#11130f" opacity="0.9">
+    <ellipse cx="575" cy="454" rx="55" ry="68"/>
+    <path d="M522 522 C550 490 613 488 646 526 C675 562 686 638 682 716 L494 716 C490 640 494 562 522 522 Z"/>
+    <path d="M632 559 C681 572 720 594 758 634 L732 666 C696 638 666 620 628 612 Z"/>
+    <path d="M562 567 C518 584 488 614 466 652 L498 674 C520 642 544 622 580 612 Z"/>
+    <path d="M640 614 C680 592 724 586 780 594 L780 676 C728 670 686 678 644 704 Z" fill="#f4e5c0"/>
+    <path d="M786 594 C836 583 884 592 930 626 L898 700 C858 678 820 670 780 676 Z" fill="#fff1ce"/>
+  </g>
+  <g stroke="#c06a28" stroke-width="3" opacity="0.38">
+    <path d="M20 738 C58 690 92 692 128 748"/>
+    <path d="M1098 750 C1138 698 1182 705 1216 758"/>
+    <path d="M1238 718 C1286 660 1328 680 1358 742"/>
+    <path d="M332 744 C380 690 420 700 462 760"/>
+  </g>
+  <rect width="1456" height="816" fill="#000" opacity="0.18"/>
+</svg>
