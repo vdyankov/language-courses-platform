@@ -31,8 +31,8 @@ Plamena will focus on the underlying database schema and the backend foundation.
 **Boyan Atanasov (Student 2) – Business Logic & Analytics**
 Boyan will focus on the complex business logic that makes the platform functional for an administrative user. He will present the modules for **Trainings, Enrollments, and Fees management**, demonstrating how student data accurately syncs with financial records. He will also showcase the data aggregation behind the **Dashboard statistics**.
 
-**Ventsislav Dyankov (Student 3) – UI/UX, Payments & Full-Stack Integration**
-Ventsislav will focus on the visual and interactive direction of the platform. He will present the overall **UI/UX** and the **React Frontend** for both the Admin Panel and Client Portal. He will also demonstrate the mock debit/credit card payment system, the GitHub infrastructure, and how the user journey flows through the application.
+**Ventsislav Dyankov (Student 3) – Database, API, UI/UX & Full-Stack Integration**
+Ventsislav focused on the data architecture as well as the visual and interactive direction of the platform. Specifically, he focused on the relational database design, the API routing for CRUD operations, and the overall UI/UX and React Frontend for both the Admin Panel and Client Portal. He will also demonstrate the mock debit/credit card payment system, the GitHub infrastructure and README.md documentation, and how the user journey flows through the application.
 
 ---
 
